@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Api", "WeatherApp.Api\WeatherApp.Api.csproj", "{33C2F684-E1F5-4E43-8723-84116C11518D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.BLL", "WeatherApp.BLL\WeatherApp.BLL.csproj", "{CE2EF34F-DF34-4AEF-BFEF-C58D7B43FD78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.DAL", "WeatherApp.DAL\WeatherApp.DAL.csproj", "{B73BEB1E-A6A9-4176-B148-F11A1A6457F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{33C2F684-E1F5-4E43-8723-84116C11518D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33C2F684-E1F5-4E43-8723-84116C11518D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33C2F684-E1F5-4E43-8723-84116C11518D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2EF34F-DF34-4AEF-BFEF-C58D7B43FD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2EF34F-DF34-4AEF-BFEF-C58D7B43FD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2EF34F-DF34-4AEF-BFEF-C58D7B43FD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2EF34F-DF34-4AEF-BFEF-C58D7B43FD78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73BEB1E-A6A9-4176-B148-F11A1A6457F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73BEB1E-A6A9-4176-B148-F11A1A6457F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73BEB1E-A6A9-4176-B148-F11A1A6457F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73BEB1E-A6A9-4176-B148-F11A1A6457F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

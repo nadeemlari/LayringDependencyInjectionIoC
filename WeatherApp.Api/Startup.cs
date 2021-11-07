@@ -1,15 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using WeatherApp.BLL;
+using WeatherApp.DAL;
 
 namespace WeatherApp.Api
 {
@@ -27,6 +23,8 @@ namespace WeatherApp.Api
         {
 
             services.AddControllers();
+            services.AddTransient<IWeatherService,WeatherService>();
+            services.AddTransient<IWeatherDataRepositry,DummyWeatherDataRepositry>();   
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,6 +1,6 @@
 using System;
 
-namespace WeatherApp.Api
+namespace WeatherApp.BLL
 {
     public class WeatherForecast
     {
